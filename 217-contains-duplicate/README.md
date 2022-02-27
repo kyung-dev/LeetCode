@@ -19,3 +19,7 @@
 	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 </div>
+
+<hr>
+<p><strong>resolution</strong></p>
+<p>이중 <code>for</code>문을 사용합니다. 첫 번째 <code>for</code>문은 배열 하나하나에 접근하고 두 번째 <code>for</code>문은 해당 인덱스 이후의 값과 비교하여 같은 값이면 <code>true</code>를 반환 합니다. <code>for</code>문이 끝나면 false를 반환합니다.
