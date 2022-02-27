@@ -36,3 +36,8 @@
 
 <p>&nbsp;</p>
 <strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than&nbsp;<code>O(n<sup>2</sup>)&nbsp;</code>time complexity?</div>
+
+<hr>
+<p><strong>resolution</strong></p>
+<p>배열에 하나하나 접근하면서 hashMap에 key에는 배열값과 value에는 index를 put한다.</p>
+<p>target-nums[i]값의 키가 있다면 해당 value값과 i를 반환한다.</p>
