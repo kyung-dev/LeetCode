@@ -38,3 +38,6 @@
 <p><strong>resolution</strong></p>
 <p>메모이제이션 사용 : 메모이제이션(memoization)은 컴퓨터 프로그램이 동일한 계산을 반복해야 할 때, 이전에 계산한 값을 메모리에 저장함으로써 동일한 계산의 반복 수행을 제거하여 프로그램 실행 속도를 빠르게 하는 기술</p>
 <img width="937" alt="스크린샷 2022-02-27 오후 3 13 36" src="https://user-images.githubusercontent.com/71361688/155870704-536ac99b-ef8b-40e7-9c8b-0c30d02cd731.png">
+<p>1. sum에 nums[i]값을 더한다</p>
+<p>2. sum보다 nums[i]값이 크면 sum에 대입한다. (i까지의 부분합보다 nums[i]값이 크다면 i부터 부분합을 다시 시작한다.)</p>
+<p>3. nums[i-1]과 sum 중에 큰 값을 nums[i]에 대입한다. (nums[i]에는 해당 인덱스까지 최대부분합을 기록한다)</p>
